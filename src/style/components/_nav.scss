@@ -1,0 +1,61 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .brg-btn {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        height: 45px;
+        width: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        .bgr-line {
+            width: 40px;
+            height: 4px;
+            border-radius: 10px;
+            background: $color2;
+            transition: 0.3s;
+        }
+    }
+    .menu {
+        position: absolute;
+        background: $color2;
+        width: 90vw;
+        height: 350px;
+        transform: translateY(170px);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 20px;
+        transition: 0.3s;
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: end;
+            height: 100%;
+            font-size: 2rem;
+            color: $color1;
+            li {
+                padding: 20px 0 20px 0;
+            }
+        }
+    }
+}
+
+.line1Anim {
+    transform: rotate(-45deg) translateY(16px);
+}
+.line2Anim {
+    transform: translateX(150px);
+}
+.line3Anim {
+    transform: rotate(45deg) translateY(-16px);
+}
+.menuAnim {
+    transform: translate(-250px, -250px);
+}

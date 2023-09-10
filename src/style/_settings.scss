@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+$color1 : rgba(49, 117, 96, 1);
+$color2 : rgba(217, 243, 231, 1);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    list-style-type: none;
+    overflow-x: hidden;
+
+    body {
+        background: $color1;
+    }
+}
