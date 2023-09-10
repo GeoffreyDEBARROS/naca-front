@@ -1,0 +1,41 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .footer {
+        width: 90vw;
+        height: 170px;
+        padding: 20px;
+        background: rgba(217, 243, 231, 0.346);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .footer-menu {
+            ul {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                color: $color2;
+               li {
+                &:active {
+                    font-weight: bold;
+                }
+               }
+            }
+        }
+        .contact {
+            ul {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: space-around;
+                li {
+                    &:active {
+                        transform: scale(98%);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.last-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .last {
+        background: $color2;
+        width: 90vw;
+        border-radius: 10px 10px 0 0; 
+        .last-header {
+            padding: 20px;
+            color: $color1;
+        }
+        .last-announces {
+            padding: 20px;
+            .announce1 {
+                padding: 10px;
+                margin-bottom: 20px;
+                border-top: 2px solid $color1;
+                border-bottom: 2px solid $color1;
+                display: flex;
+                justify-content: space-around;
+                transition: 0.2s;
+                &:active {
+                    transform: scale(99%);
+                }
+                .infos {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    text-align: center;
+                    color: $color1;
+                    h6 {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
+}

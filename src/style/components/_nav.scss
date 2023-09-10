@@ -5,7 +5,7 @@
     .brg-btn {
         position: absolute;
         right: 20px;
-        top: 20px;
+        top: 20px; 
         height: 45px;
         width: 60px;
         display: flex;
@@ -21,6 +21,7 @@
         }
     }
     .menu {
+        border: 2px solid $color1;
         position: absolute;
         background: $color2;
         width: 90vw;
@@ -42,6 +43,10 @@
             color: $color1;
             li {
                 padding: 20px 0 20px 0;
+                transition: 0.1s;
+                &:active {
+                    font-weight: bold;
+                }
             }
         }
     }
@@ -58,4 +63,5 @@
 }
 .menuAnim {
     transform: translate(-250px, -250px);
+    position: absolute;
 }
