@@ -10,38 +10,42 @@ const Last = () => {
         <div className="last-announces">
           <div className="announce1">
             <div className="infos">
-              <h6>Sibylla pretiosa</h6>
+              <h6>Sibylla Pretiosa</h6>
               <span>12 euros</span>
             </div>
             <div className="picture">
-              <img src="./img/Sibylla-pretiosa.jpg" height="120px" alt="Sibylla"/>
+              <img
+                src="./img/Sibylla-pretiosa.jpg"
+                height="120px"
+                alt="Sibylla"
+              />
             </div>
           </div>
           <div className="announce1">
             <div className="infos">
-              <h6>Sibylla pretiosa</h6>
+              <h6>Furcifer Pardalis</h6>
               <span>400 euros</span>
             </div>
             <div className="picture">
-              <img src="./img/pardalis.png" height="120px" alt="pardalis"/>
+              <img src="./img/pardalis.png" height="120px" alt="pardalis" />
             </div>
           </div>
           <div className="announce1">
             <div className="infos">
-              <h6>Platymeris biguttatus</h6>
+              <h6>Platymeris Biguttatus</h6>
               <span>4 euros</span>
             </div>
             <div className="picture">
-              <img src="./img/platymeris.png" height="120px" alt="platymeris"/>
+              <img src="./img/platymeris.png" height="120px" alt="platymeris" />
             </div>
           </div>
           <div className="announce1">
             <div className="infos">
-              <h6>Sibylla pretiosa</h6>
+              <h6>Varanus Prasinus</h6>
               <span>2900 euros</span>
             </div>
             <div className="picture">
-              <img src="./img/prasinus.png" height="120px" alt="prasinus"/>
+              <img src="./img/prasinus.png" height="120px" alt="prasinus" />
             </div>
           </div>
         </div>

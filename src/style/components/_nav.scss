@@ -25,7 +25,6 @@
         position: absolute;
         background: $color2;
         width: 90vw;
-        height: 350px;
         transform: translateY(170px);
         border-radius: 10px;
         display: flex;
@@ -40,10 +39,10 @@
             align-items: flex-end;
             height: 100%;
             font-size: 2rem;
-            color: $color1;
             li {
                 padding: 20px 0 20px 0;
                 transition: 0.1s;
+                color: $color1;
                 &:active {
                     font-weight: bold;
                 }
@@ -62,6 +61,6 @@
     transform: rotate(45deg) translateY(-16px);
 }
 .menuAnim {
-    transform: translate(-250px, -250px);
+    transform: translate(-300px, -800px);
     position: absolute;
 }

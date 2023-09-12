@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   const [isNavIsOpen, setIsNavIsOpen] = useState(false);
@@ -17,10 +18,21 @@ const Nav = () => {
 
       <div className={`menuAnim ${isNavIsOpen ? "menu" : ""}`}>
         <ul>
-          <li>Recherche</li>
-          <li>Poster une annonce</li>
-          <li>Mon compte</li>
-          <li>Mentions légales</li>
+          <NavLink to="/">
+            <li>Accueil</li>
+          </NavLink>
+          <NavLink to="/recherche">
+            <li>Recherche</li>
+          </NavLink>
+          <NavLink to="/connexion">
+            <li>Connexion</li>
+          </NavLink>
+          <NavLink to="/poster_une_annonce">
+            <li>Poster une annonce</li>
+          </NavLink>
+          <NavLink to="/inscription">
+            <li>Inscription</li>
+          </NavLink>
         </ul>
       </div>
     </div>

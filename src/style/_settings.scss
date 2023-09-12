@@ -9,8 +9,82 @@ $color2 : rgba(217, 243, 231, 1);
     font-family: 'Quicksand', sans-serif;
     list-style-type: none;
     overflow-x: hidden;
+    text-decoration: none;
 
     body {
         background: $color1;
+    }
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h4 {
+        font-size: 1.3rem;
+        transform: translateY(-40px);
+        color: $color2;
+    }
+}
+
+
+.form-container {
+    position: absolute;
+    padding: 10px;
+    width: 90vw;
+    max-width: 560px;
+    right: 50%;
+    transform: translateX(50%);
+    border-radius: 10px;
+    background: $color2;
+    color: $color1;
+    
+    .sentence { 
+        .hello {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    }
+    form {
+        margin-top: 30px;
+        display: grid;
+        label {
+            margin-bottom: 5px;
+        }
+        input {
+            margin-bottom: 10px;
+            height: 30px;
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+            background: $color1;
+            color: $color2;
+            &:focus {
+                outline: none;
+                border-radius: 10px;
+            }
+        }
+        .btn-container {
+            margin: 20px 0 10px 0;
+            display: flex;
+            justify-content: center;
+            button {
+                width: 50%;
+                height: 30px;
+                border: 2px solid $color1;
+                background: $color2;
+                border-radius: 10px;
+                color: $color1;
+                font-weight: bold;
+                transition: 0.2s;
+                &:active {
+                    transform: scale(98%);
+                }
+            }
+        }
+        .message-container {
+            text-align: center;
+            margin: 10px;
+        }
     }
 }
